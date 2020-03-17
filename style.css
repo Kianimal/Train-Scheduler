@@ -31,3 +31,18 @@ th{
 .card-body{
     padding: 0px !important;
 }
+
+#addTrain{
+    padding: 10px;
+}
+
+#formContainer{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.jumbotron{
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    margin-bottom: 10px !important;
+}
