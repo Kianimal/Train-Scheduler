@@ -3,7 +3,12 @@ table{
 }
 
 #cardHead{
-    padding-top: 15px;
+    padding: 0px;
+}
+
+h4{
+    padding: 10px !important;
+    margin: 0 !important;
 }
 
 #tblTxt{
@@ -21,4 +26,8 @@ th{
 .card{
     border: 1px solid #007bff !important;
     border-radius: 5px !important;
+}
+
+.card-body{
+    padding: 0px !important;
 }
