@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Train Scheduler 9000</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Choosy Chrain</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -13,7 +13,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <div class="container">
         <div class="jumbotron text-white bg-dark txtCenter">
-            <h1>CHOO CHOO CHOOSY TRAIN</h1>
+            <h1>CHOO CHOO CHOOSY CHRAIN</h1>
             <h2>Your Train Scheduling Resource</h2>
         </div>
         <div class="card">
@@ -60,20 +60,20 @@
                 <div class="card-body">
                     <form id="addTrain">
                         <div class="form-group">
-                            <label for="name">Train Name:</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="The name of the train route you're adding, e.g. Choo Choo Express">
+                            <label for="trainName">Train Name:</label>
+                            <input type="text" class="form-control" id="trainName" placeholder="The name of the train route you're adding, e.g. Choo Choo Express">
                         </div>
                         <div class="form-group">
-                            <label for="destination">Destination:</label>
-                            <input type="text" class="form-control" id="destination" placeholder="The name of the ultimate destination, e.g. Shelbyville, OR">
+                            <label for="trainDest">Destination:</label>
+                            <input type="text" class="form-control" id="trainDest" placeholder="The name of the ultimate destination, e.g. Shelbyville, OR">
                         </div>
                         <div class="form-group">
-                            <label for="destination">First Train Time:</label>
-                            <input type="text" class="form-control" id="destination" placeholder="The time of the train's first departure, in HH: mm format (military time, e.g. 07:30)">
+                            <label for="trainFirst">First Train Time:</label>
+                            <input type="text" class="form-control" id="trainFirst" placeholder="The time of the train's first departure, in HH: mm format (military time, e.g. 07:30)">
                         </div>
                         <div class="form-group">
-                            <label for="destination">Frequency:</label>
-                            <input type="text" class="form-control" id="destination" placeholder="The frequency of arrival, in minutes (e.g. 180)">
+                            <label for="trainFreq">Frequency:</label>
+                            <input type="text" class="form-control" id="trainFreq" placeholder="The frequency of arrival, in minutes (e.g. 180)">
                         </div>
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>
