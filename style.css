@@ -9,3 +9,7 @@ table{
 #tblTxt{
     font-size: 14px;
 }
+
+.txtCenter{
+    text-align: center !important;
+}
