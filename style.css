@@ -13,3 +13,12 @@ table{
 .txtCenter{
     text-align: center !important;
 }
+
+th{
+    border-top: 0 !important;
+}
+
+.card{
+    border: 1px solid #007bff !important;
+    border-radius: 5px !important;
+}
