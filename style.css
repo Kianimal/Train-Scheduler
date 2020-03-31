@@ -1,48 +1,52 @@
-table{
-    margin-bottom: 0 !important;
+.bg-primary{
+  background-color: steelblue !important;
 }
 
-#cardHead{
-    padding: 0px;
+table {
+  margin-bottom: 0 !important;
 }
 
-h4{
-    padding: 10px !important;
-    margin: 0 !important;
+#cardHead {
+  padding: 0px;
 }
 
-#tblTxt{
-    font-size: 14px;
+h4 {
+  padding: 10px !important;
+  margin: 0 !important;
 }
 
-.txtCenter{
-    text-align: center !important;
+.tableFont {
+  font-size: 14px;
 }
 
-th{
-    border-top: 0 !important;
+.txtCenter {
+  text-align: center !important;
 }
 
-.card{
-    border: 1px solid #007bff !important;
-    border-radius: 5px !important;
+th {
+  border-top: 0 !important;
 }
 
-.card-body{
-    padding: 0px !important;
+.card {
+  border: 1px solid steelblue !important;
+  border-radius: 5px !important;
 }
 
-#addTrain{
-    padding: 10px;
+.card-body {
+  padding: 0px !important;
 }
 
-#formContainer{
-    margin-top: 10px;
-    margin-bottom: 0px;
+#addTrain {
+  padding: 10px;
 }
 
-.jumbotron{
-    border-top-left-radius: 0 !important;
-    border-top-right-radius: 0 !important;
-    margin-bottom: 10px !important;
+#formContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.jumbotron {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  margin-bottom: 10px !important;
 }
